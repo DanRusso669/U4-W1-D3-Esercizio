@@ -5,7 +5,10 @@ public class Main {
 
         Cliente cliente1 = new Cliente("Mario Rossi", "epicode@epi.com");
 
-        cliente1.stampaCliente();
+        Cliente.stampaCliente(cliente1);
 
+        Articolo articolo1 = new Articolo("Palla da tennis", 30, 5);
+
+        Articolo.stampaArticolo(articolo1);
     }
 }

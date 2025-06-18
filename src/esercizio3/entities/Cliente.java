@@ -21,11 +21,11 @@ public class Cliente {
 
     // METODI
 
-    public void stampaCliente() {
-        System.out.println("Il nome del cliente sono: " + this.fullName);
-        System.out.println("La sua email è: " + this.email);
-        System.out.println("La sua data di iscrizione è: " + this.signUpDate);
-        System.out.println("Il suo codice cliente è: " + this.customerCode);
+    static public void stampaCliente(Cliente cliente) {
+        System.out.println("Il nome del cliente è: " + cliente.fullName);
+        System.out.println("La sua email è: " + cliente.email);
+        System.out.println("La sua data di iscrizione è: " + cliente.signUpDate);
+        System.out.println("Il suo codice cliente è: " + cliente.customerCode);
     }
 
 
